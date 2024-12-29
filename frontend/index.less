@@ -1,0 +1,19 @@
+
+@map-height: 400px;
+@map-width: 500px;
+@background-color: gray;
+
+// Mixin for map styling
+.map-style(@height, @width) {
+    height: @height;
+    width: @width;
+}
+
+// Applying styles
+#map {
+    .map-style(@map-height, @map-width);
+}
+
+body {
+    background-color: @background-color;
+}

@@ -1,0 +1,628 @@
+
+/Users/home-macbook/Documents/WEB-ENTW/web-entw-hausarbeit/frontend/dist/main.bundle.js
+   2:13  error  'L' is not defined                              no-undef
+   3:15  error  'L' is not defined                              no-undef
+   4:1   error  'L' is not defined                              no-undef
+  21:11  error  Identifier 'new_location' is not in camel case  camelcase
+  26:20  error  'L' is not defined                              no-undef
+  34:5   error  'alert' is not defined                          no-undef
+  60:7   error  'alert' is not defined                          no-undef
+  62:7   error  'alert' is not defined                          no-undef
+
+/Users/home-macbook/Documents/WEB-ENTW/web-entw-hausarbeit/frontend/dist/server.bundle.js
+      8:88   error  Unexpected use of comma operator                                                                                  no-sequences
+     11:12   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+     11:40   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+     18:17   error  Arrow function should not return assignment                                                                       no-return-assign
+     18:102  error  Unexpected use of comma operator                                                                                  no-sequences
+     28:7    error  Identifier 'require_depd' is not in camel case                                                                    camelcase
+     52:11   error  Return statement should not contain assignment                                                                    no-return-assign
+    148:74   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+    149:19   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+    187:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+    247:28   error  The Function constructor is eval                                                                                  no-new-func
+    258:16   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    258:43   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    319:31   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+    322:11   error  Return statement should not contain assignment                                                                    no-return-assign
+    334:7    error  Identifier 'require_bytes' is not in camel case                                                                   camelcase
+    365:42   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    365:72   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    366:37   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    366:62   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    367:66   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+    369:26   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    369:42   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    423:7    error  Identifier 'require_content_type' is not in camel case                                                            camelcase
+    426:26   error  Unexpected control character(s) in regular expression: \x0b, \x0b                                                 no-control-regex
+    427:25   error  Unexpected control character(s) in regular expression: \x0b                                                       no-control-regex
+    429:25   error  Unexpected control character(s) in regular expression: \x0b                                                       no-control-regex
+    476:16   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+    527:7    error  Identifier 'require_setprototypeof' is not in camel case                                                          camelcase
+    532:7    error  The '__proto__' property is deprecated                                                                            no-proto
+    547:7    error  Identifier 'require_codes' is not in camel case                                                                   camelcase
+    618:7    error  Identifier 'require_statuses' is not in camel case                                                                camelcase
+    689:7    error  Identifier 'require_inherits_browser' is not in camel case                                                        camelcase
+    721:7    error  Identifier 'require_inherits' is not in camel case                                                                camelcase
+    724:7    error  'util' was used before it was defined                                                                             no-use-before-define
+    725:18   error  'util' was used before it was defined                                                                             no-use-before-define
+    725:48   error  Expected an error object to be thrown                                                                             no-throw-literal
+    726:25   error  'util' was used before it was defined                                                                             no-use-before-define
+    735:7    error  Identifier 'require_toidentifier' is not in camel case                                                            camelcase
+    748:7    error  Identifier 'require_http_errors' is not in camel case                                                             camelcase
+    787:38   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    787:67   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+    912:7    error  Identifier 'require_ms' is not in camel case                                                                      camelcase
+    980:18   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   1014:7    error  Identifier 'require_debug' is not in camel case                                                                   camelcase
+   1119:7    error  Identifier 'require_browser' is not in camel case                                                                 camelcase
+   1127:64   error  'chrome' is not defined                                                                                           no-undef
+   1127:97   error  'chrome' is not defined                                                                                           no-undef
+   1140:108  error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1140:159  error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1140:159  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1141:55   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1141:82   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1141:110  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1141:135  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1143:124  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1143:157  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1144:63   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1205:7    error  Identifier 'require_node' is not in camel case                                                                    camelcase
+   1277:13   error  Identifier 'tty_wrap' is not in camel case                                                                        camelcase
+   1277:24   error  'process.binding' was deprecated since v10.9.0                                                                    n/no-deprecated-api
+   1278:15   error  Identifier 'tty_wrap' is not in camel case                                                                        camelcase
+   1287:11   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1288:25   error  'fs.SyncWriteStream' was deprecated since v4.0.0                                                                  n/no-deprecated-api
+   1293:11   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1325:7    error  Identifier 'require_src' is not in camel case                                                                     camelcase
+   1336:7    error  Identifier 'require_destroy' is not in camel case                                                                 camelcase
+   1423:7    error  Identifier 'require_safer' is not in camel case                                                                   camelcase
+   1431:19   error  Do not access Object.prototype method 'hasOwnProperty' from target object                                         no-prototype-builtins
+   1437:20   error  Do not access Object.prototype method 'hasOwnProperty' from target object                                         no-prototype-builtins
+   1450:16   error  'buffer.Buffer()' was deprecated since v6.0.0. Use 'buffer.Buffer.alloc()' or 'buffer.Buffer.from()' instead      n/no-deprecated-api
+   1461:21   error  'buffer.Buffer()' was deprecated since v6.0.0. Use 'buffer.Buffer.alloc()' or 'buffer.Buffer.from()' instead      n/no-deprecated-api
+   1474:34   error  'process.binding' was deprecated since v10.9.0                                                                    n/no-deprecated-api
+   1491:7    error  Identifier 'require_bom_handling' is not in camel case                                                            camelcase
+   1533:7    error  Identifier 'require_internal' is not in camel case                                                                camelcase
+   1668:7    error  Identifier 'require_utf16' is not in camel case                                                                   camelcase
+   1695:22   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1707:29   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1720:30   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   1741:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1741:13   error  'buf' is already defined                                                                                          no-redeclare
+   1759:20   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1759:37   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1759:83   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1759:100  error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1774:7    error  Identifier 'require_utf7' is not in camel case                                                                    camelcase
+   1786:41   error  Unnecessary escape character: \(                                                                                  no-useless-escape
+   1786:43   error  Unnecessary escape character: \)                                                                                  no-useless-escape
+   1786:47   error  Unnecessary escape character: \.                                                                                  no-useless-escape
+   1786:49   error  Unnecessary escape character: \/                                                                                  no-useless-escape
+   1786:52   error  Unnecessary escape character: \?                                                                                  no-useless-escape
+   1802:36   error  Unnecessary escape character: \/                                                                                  no-useless-escape
+   1804:10   error  'i' was used before it was defined                                                                                no-use-before-define
+   1804:17   error  'i' was used before it was defined                                                                                no-use-before-define
+   1804:26   error  'i' was used before it was defined                                                                                no-use-before-define
+   1804:45   error  'i' was used before it was defined                                                                                no-use-before-define
+   1804:87   error  'i' was used before it was defined                                                                                no-use-before-define
+   1813:23   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1820:20   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1820:40   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1823:15   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1826:25   error  Expected '!==' and instead saw '!='                                                                               eqeqeq
+   1836:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1836:13   error  'b64str' is already defined                                                                                       no-redeclare
+   1891:32   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1925:23   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1932:20   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1932:40   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   1935:15   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1938:25   error  Expected '!==' and instead saw '!='                                                                               eqeqeq
+   1948:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1948:13   error  'b64str' is already defined                                                                                       no-redeclare
+   1969:7    error  Identifier 'require_sbcs_codec' is not in camel case                                                              camelcase
+   1976:31   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1976:68   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   1979:14   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1984:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   1984:16   error  'i' is already defined                                                                                            no-redeclare
+   2020:7    error  Identifier 'require_sbcs_data' is not in camel case                                                               camelcase
+   2169:7    error  Identifier 'require_sbcs_data_generated' is not in camel case                                                     camelcase
+   2439:31   error  Unexpected tab character                                                                                          no-tabs
+   2577:54   error  Unexpected tab character                                                                                          no-tabs
+   2593:46   error  Unexpected tab character                                                                                          no-tabs
+   2597:31   error  Unexpected tab character                                                                                          no-tabs
+   2601:31   error  Unexpected tab character                                                                                          no-tabs
+   2624:7    error  Identifier 'require_dbcs_codec' is not in camel case                                                              camelcase
+   2635:10   error  'i' was used before it was defined                                                                                no-use-before-define
+   2635:17   error  'i' was used before it was defined                                                                                no-use-before-define
+   2635:26   error  'i' was used before it was defined                                                                                no-use-before-define
+   2635:49   error  'i' was used before it was defined                                                                                no-use-before-define
+   2645:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2651:14   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2651:18   error  'i2' is already defined                                                                                           no-redeclare
+   2654:18   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2673:14   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2673:18   error  'i2' is already defined                                                                                           no-redeclare
+   2676:16   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2676:20   error  'j' is already defined                                                                                            no-redeclare
+   2678:14   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2678:18   error  'i2' is already defined                                                                                           no-redeclare
+   2679:14   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2679:18   error  'i2' is already defined                                                                                           no-redeclare
+   2687:24   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   2691:17   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   2707:16   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2722:16   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2722:20   error  'l' is already defined                                                                                            no-redeclare
+   2729:38   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2735:129  error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   2754:26   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2771:21   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2781:18   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   2782:11   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2784:11   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2784:15   error  'uCode' is already defined                                                                                        no-redeclare
+   2809:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2810:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2810:40   error  Expected '!==' and instead saw '!='                                                                               eqeqeq
+   2817:30   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   2817:33   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2819:29   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2822:20   error  Empty block statement                                                                                             no-empty
+   2825:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2828:28   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2833:24   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+   2835:21   error  Expected '!==' and instead saw '!='                                                                               eqeqeq
+   2836:15   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2836:19   error  'dbcsCode' is already defined                                                                                     no-redeclare
+   2865:56   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2869:26   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2876:16   error  Empty block statement                                                                                             no-empty
+   2878:23   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   2896:189  error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2898:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2900:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   2900:13   error  'uCode' is already defined                                                                                        no-redeclare
+   2901:25   error  Empty block statement                                                                                             no-empty
+   2963:7    error  Identifier 'require_shiftjis' is not in camel case                                                                camelcase
+   3094:7    error  Identifier 'require_eucjp' is not in camel case                                                                   camelcase
+   3282:7    error  Identifier 'require_cp936' is not in camel case                                                                   camelcase
+   3552:7    error  Identifier 'require_gbk_added' is not in camel case                                                               camelcase
+   3613:7    error  Identifier 'require_gb18030_ranges' is not in camel case                                                          camelcase
+   3620:7    error  Identifier 'require_cp949' is not in camel case                                                                   camelcase
+   3899:7    error  Identifier 'require_cp950' is not in camel case                                                                   camelcase
+   4082:7    error  Identifier 'require_big5_added' is not in camel case                                                              camelcase
+   4210:7    error  Identifier 'require_dbcs_data' is not in camel case                                                               camelcase
+   4385:7    error  Identifier 'require_encodings' is not in camel case                                                               camelcase
+   4398:10   error  'i' was used before it was defined                                                                                no-use-before-define
+   4398:17   error  'i' was used before it was defined                                                                                no-use-before-define
+   4398:37   error  'i' was used before it was defined                                                                                no-use-before-define
+   4399:25   error  'i' was used before it was defined                                                                                no-use-before-define
+   4400:12   error  'enc' was used before it was defined                                                                              no-use-before-define
+   4401:59   error  'enc' was used before it was defined                                                                              no-use-before-define
+   4401:76   error  'enc' was used before it was defined                                                                              no-use-before-define
+   4401:91   error  'enc' was used before it was defined                                                                              no-use-before-define
+   4404:5    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+   4404:9    error  'module2' is already defined                                                                                      no-redeclare
+   4411:7    error  Identifier 'require_streams' is not in camel case                                                                 camelcase
+   4510:7    error  Identifier 'require_extend_node' is not in camel case                                                             camelcase
+   4515:22   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   4516:64   error  'new buffer.Buffer()' was deprecated since v6.0.0. Use 'buffer.Buffer.alloc()' or 'buffer.Buffer.from()' instead  n/no-deprecated-api
+   4540:28   error  'buffer.SlowBuffer' was deprecated since v6.0.0. Use 'buffer.Buffer.allocUnsafeSlow()' instead                    n/no-deprecated-api
+   4554:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   4604:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   4644:28   error  'buffer.SlowBuffer' was deprecated since v6.0.0. Use 'buffer.Buffer.allocUnsafeSlow()' instead                    n/no-deprecated-api
+   4656:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   4663:7    error  Identifier 'require_lib' is not in camel case                                                                     camelcase
+   4722:25   error  A constructor name should not start with a lowercase letter                                                       new-cap
+   4734:71   error  A constructor name should not start with a lowercase letter                                                       new-cap
+   4739:71   error  A constructor name should not start with a lowercase letter                                                       new-cap
+   4745:7    error  'nodeVerArr' was used before it was defined                                                                       no-use-before-define
+   4746:11   error  'nodeVerArr' was used before it was defined                                                                       no-use-before-define
+   4746:32   error  'nodeVerArr' was used before it was defined                                                                       no-use-before-define
+   4752:9    error  Unexpected constant condition                                                                                     no-constant-condition
+   4759:7    error  Identifier 'require_unpipe' is not in camel case                                                                  camelcase
+   4797:7    error  Identifier 'require_raw_body' is not in camel case                                                                camelcase
+   4822:22   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   4836:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   4873:27   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   4873:36   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   4986:7    error  Identifier 'require_ee_first' is not in camel case                                                                camelcase
+   5040:7    error  Identifier 'require_on_finished' is not in camel case                                                             camelcase
+   5063:37   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   5063:47   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   5066:67   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   5066:83   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+   5068:14   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   5071:11   error  'eeMsg' is never reassigned. Use 'const' instead                                                                  prefer-const
+   5092:26   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   5146:7    error  Identifier 'require_read' is not in camel case                                                                    camelcase
+   5167:25   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+   5273:7    error  Identifier 'require_media_typer' is not in camel case                                                             camelcase
+   5275:37   error  Unnecessary escape character: \*                                                                                  no-useless-escape
+   5275:39   error  Unnecessary escape character: \+                                                                                  no-useless-escape
+   5275:43   error  Unnecessary escape character: \.                                                                                  no-useless-escape
+   5275:51   error  Unnecessary escape character: \^                                                                                  no-useless-escape
+   5275:58   error  Unnecessary escape character: \|                                                                                  no-useless-escape
+   5275:146  error  Unnecessary escape character: \*                                                                                  no-useless-escape
+   5275:148  error  Unnecessary escape character: \+                                                                                  no-useless-escape
+   5275:152  error  Unnecessary escape character: \.                                                                                  no-useless-escape
+   5275:160  error  Unnecessary escape character: \^                                                                                  no-useless-escape
+   5275:167  error  Unnecessary escape character: \|                                                                                  no-useless-escape
+   5277:34   error  Unnecessary escape character: \*                                                                                  no-useless-escape
+   5277:36   error  Unnecessary escape character: \+                                                                                  no-useless-escape
+   5277:40   error  Unnecessary escape character: \.                                                                                  no-useless-escape
+   5277:48   error  Unnecessary escape character: \^                                                                                  no-useless-escape
+   5277:55   error  Unnecessary escape character: \|                                                                                  no-useless-escape
+   5278:24   error  Unexpected control character(s) in regular expression: \x00                                                       no-control-regex
+   5337:14   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+   5397:7    error  Identifier 'require_db' is not in camel case                                                                      camelcase
+  13922:7    error  Identifier 'require_mime_db' is not in camel case                                                                 camelcase
+  13929:7    error  Identifier 'require_mime_types' is not in camel case                                                              camelcase
+  13994:46   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  14007:80   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14007:95   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14019:7    error  Identifier 'require_type_is' is not in camel case                                                                 camelcase
+  14054:51   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  14107:25   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  14124:7    error  Identifier 'require_json' is not in camel case                                                                    camelcase
+  14134:31   error  Unexpected control character(s) in regular expression: \x09, \x0a, \x0d, \x09, \x0a, \x0d                         no-control-regex
+  14228:33   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  14234:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  14258:7    error  Identifier 'require_raw' is not in camel case                                                                     camelcase
+  14314:7    error  Identifier 'require_text' is not in camel case                                                                    camelcase
+  14368:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  14380:7    error  Identifier 'require_type' is not in camel case                                                                    camelcase
+  14388:7    error  Identifier 'require_util_inspect' is not in camel case                                                            camelcase
+  14395:7    error  Identifier 'require_object_inspect' is not in camel case                                                          camelcase
+  14428:110  error  Typeof comparisons should be to string literals                                                                   valid-typeof
+  14430:102  error  The '__proto__' property is deprecated                                                                            no-proto
+  14432:16   error  The '__proto__' property is deprecated                                                                            no-proto
+  14436:52   error  Comparing to itself is potentially pointless                                                                      no-self-compare
+  14436:64   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14436:85   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14475:75   error  Unexpected tab character                                                                                          no-tabs
+  14625:45   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14625:67   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14625:67   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14625:100  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  14811:62   error  'HTMLElement' is not defined                                                                                      no-undef
+  14824:68   error  Unexpected control character(s) in regular expression: \x00, \x1f                                                 no-control-regex
+  14861:28   error  Unexpected tab character                                                                                          no-tabs
+  14862:23   error  Unexpected tab character                                                                                          no-tabs
+  14925:7    error  Identifier 'require_side_channel_list' is not in camel case                                                       camelcase
+  14947:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  14979:7    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  14989:18   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  15002:21   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  15019:7    error  Identifier 'require_es_object_atoms' is not in camel case                                                         camelcase
+  15027:7    error  Identifier 'require_es_errors' is not in camel case                                                               camelcase
+  15035:7    error  Identifier 'require_eval' is not in camel case                                                                    camelcase
+  15043:7    error  Identifier 'require_range' is not in camel case                                                                   camelcase
+  15051:7    error  Identifier 'require_ref' is not in camel case                                                                     camelcase
+  15059:7    error  Identifier 'require_syntax' is not in camel case                                                                  camelcase
+  15067:7    error  Identifier 'require_uri' is not in camel case                                                                     camelcase
+  15075:7    error  Identifier 'require_abs' is not in camel case                                                                     camelcase
+  15083:7    error  Identifier 'require_floor' is not in camel case                                                                   camelcase
+  15091:7    error  Identifier 'require_max' is not in camel case                                                                     camelcase
+  15099:7    error  Identifier 'require_min' is not in camel case                                                                     camelcase
+  15107:7    error  Identifier 'require_pow' is not in camel case                                                                     camelcase
+  15115:7    error  Identifier 'require_gOPD' is not in camel case                                                                    camelcase
+  15123:7    error  Identifier 'require_gopd' is not in camel case                                                                    camelcase
+  15139:7    error  Identifier 'require_es_define_property' is not in camel case                                                      camelcase
+  15155:7    error  Identifier 'require_shams' is not in camel case                                                                   camelcase
+  15179:7    error  Invalid loop. Its body allows only one iteration                                                                  no-unreachable-loop
+  15210:7    error  Identifier 'require_has_symbols' is not in camel case                                                             camelcase
+  15234:7    error  Identifier 'require_implementation' is not in camel case                                                          camelcase
+  15274:11   error  'bound' is never reassigned. Use 'const' instead                                                                  prefer-const
+  15296:15   error  The Function constructor is eval                                                                                  no-new-func
+  15310:7    error  Identifier 'require_function_bind' is not in camel case                                                           camelcase
+  15319:7    error  Identifier 'require_functionCall' is not in camel case                                                            camelcase
+  15327:7    error  Identifier 'require_functionApply' is not in camel case                                                           camelcase
+  15335:7    error  Identifier 'require_reflectApply' is not in camel case                                                            camelcase
+  15343:7    error  Identifier 'require_actualApply' is not in camel case                                                             camelcase
+  15355:7    error  Identifier 'require_call_bind_apply_helpers' is not in camel case                                                 camelcase
+  15372:7    error  Identifier 'require_get' is not in camel case                                                                     camelcase
+  15380:7    error  The '__proto__' property is deprecated                                                                            no-proto
+  15393:23   error  Expected newline between test and consequent of ternary expression                                                multiline-ternary
+  15393:64   error  Expected newline between consequent and alternate of ternary expression                                           multiline-ternary
+  15403:7    error  Identifier 'require_hasown' is not in camel case                                                                  camelcase
+  15414:7    error  Identifier 'require_get_intrinsic' is not in camel case                                                           camelcase
+  15446:13   error  Expected an assignment or function call and instead saw an expression                                             no-unused-expressions
+  15446:13   error  Avoid arguments.callee                                                                                            no-caller
+  15459:52   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  15459:78   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  15487:17   error  eval can be harmful                                                                                               no-eval
+  15545:9    error  Expected an assignment or function call and instead saw an expression                                             no-unused-expressions
+  15547:9    error  'errorProto' was used before it was defined                                                                       no-use-before-define
+  15548:43   error  'errorProto' was used before it was defined                                                                       no-use-before-define
+  15714:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  15739:7    error  Identifier 'require_call_bound' is not in camel case                                                              camelcase
+  15759:7    error  Identifier 'require_side_channel_map' is not in camel case                                                        camelcase
+  15775:7    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  15785:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  15815:7    error  Identifier 'require_side_channel_weakmap' is not in camel case                                                    camelcase
+  15833:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  15888:7    error  Identifier 'require_side_channel' is not in camel case                                                            camelcase
+  15899:7    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  15927:7    error  Identifier 'require_formats' is not in camel case                                                                 camelcase
+  15953:7    error  Identifier 'require_utils' is not in camel case                                                                   camelcase
+  15998:23   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  15998:76   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:61   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:72   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:83   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:94   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:105  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:116  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:128  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16077:158  error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16158:7    error  Identifier 'require_stringify' is not in camel case                                                               camelcase
+  16215:48   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16263:70   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16438:7    error  Identifier 'require_parse' is not in camel case                                                                   camelcase
+  16483:59   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16508:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  16539:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  16542:58   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16542:88   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  16665:7    error  Identifier 'require_lib2' is not in camel case                                                                    camelcase
+  16680:7    error  Identifier 'require_urlencoded' is not in camel case                                                              camelcase
+  16694:29   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16749:55   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16763:28   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16794:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16804:18   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16811:19   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16826:55   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16836:28   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16843:28   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16843:36   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16855:7    error  Identifier 'require_body_parser' is not in camel case                                                             camelcase
+  16889:18   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16909:22   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16926:7    error  Return statement should not contain assignment                                                                    no-return-assign
+  16932:7    error  Identifier 'require_merge_descriptors' is not in camel case                                                       camelcase
+  16944:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  16960:7    error  Identifier 'require_encodeurl' is not in camel case                                                               camelcase
+  16974:7    error  Identifier 'require_escape_html' is not in camel case                                                             camelcase
+  17021:7    error  Identifier 'require_parseurl' is not in camel case                                                                camelcase
+  17025:19   error  'url.parse' was deprecated since v11.0.0. Use 'url.URL' constructor instead                                       n/no-deprecated-api
+  17031:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17032:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17040:7    error  Return statement should not contain assignment                                                                    no-return-assign
+  17053:7    error  Return statement should not contain assignment                                                                    no-return-assign
+  17073:11   error  Expected a 'break' statement before 'case'                                                                        no-fallthrough
+  17075:11   error  Expected a 'break' statement before 'case'                                                                        no-fallthrough
+  17077:11   error  Expected a 'break' statement before 'case'                                                                        no-fallthrough
+  17079:11   error  Expected a 'break' statement before 'case'                                                                        no-fallthrough
+  17081:11   error  Expected a 'break' statement before 'case'                                                                        no-fallthrough
+  17083:11   error  Expected a 'break' statement before 'case'                                                                        no-fallthrough
+  17088:28   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17099:78   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17105:7    error  Identifier 'require_finalhandler' is not in camel case                                                            camelcase
+  17142:26   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17168:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17195:14   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17257:7    error  Identifier 'require_array_flatten' is not in camel case                                                           camelcase
+  17293:7    error  Identifier 'require_path_to_regexp' is not in camel case                                                          camelcase
+  17312:16   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  17378:14   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  17402:7    error  Identifier 'require_layer' is not in camel case                                                                   camelcase
+  17417:21   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17418:19   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17423:45   error  Identifier 'handle_error' is not in camel case                                                                    camelcase
+  17461:23   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17462:21   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17473:21   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17479:14   error  Identifier 'decode_param' is not in camel case                                                                    camelcase
+  17497:7    error  Identifier 'require_methods' is not in camel case                                                                 camelcase
+  17541:7    error  Identifier 'require_route' is not in camel case                                                                   camelcase
+  17557:48   error  Identifier '_handles_method' is not in camel case                                                                 camelcase
+  17624:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17653:7    error  Identifier 'require_utils_merge' is not in camel case                                                             camelcase
+  17667:7    error  Identifier 'require_router' is not in camel case                                                                  camelcase
+  17682:5    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  17710:13   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  17791:17   error  Identifier 'has_method' is not in camel case                                                                      camelcase
+  17792:16   error  Identifier 'has_method' is not in camel case                                                                      camelcase
+  17795:16   error  Identifier 'has_method' is not in camel case                                                                      camelcase
+  17818:16   error  Identifier 'trim_prefix' is not in camel case                                                                     camelcase
+  17843:37   error  Identifier 'process_params' is not in camel case                                                                  camelcase
+  17869:26   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17872:60   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  17872:81   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  17918:9    error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  17918:13   error  'fn' is already defined                                                                                           no-redeclare
+  17928:23   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17963:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17968:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  17973:85   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18050:7    error  Identifier 'require_init' is not in camel case                                                                    camelcase
+  18070:7    error  Identifier 'require_query' is not in camel case                                                                   camelcase
+  18081:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18083:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18083:55   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18098:7    error  Identifier 'require_view' is not in camel case                                                                    camelcase
+  18171:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18178:7    error  Identifier 'require_safe_buffer' is not in camel case                                                             camelcase
+  18194:14   error  'buffer.Buffer()' was deprecated since v6.0.0. Use 'buffer.Buffer.alloc()' or 'buffer.Buffer.from()' instead      n/no-deprecated-api
+  18202:14   error  'buffer.Buffer()' was deprecated since v6.0.0. Use 'buffer.Buffer.alloc()' or 'buffer.Buffer.from()' instead      n/no-deprecated-api
+  18208:19   error  'buffer.Buffer()' was deprecated since v6.0.0. Use 'buffer.Buffer.alloc()' or 'buffer.Buffer.from()' instead      n/no-deprecated-api
+  18209:20   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18224:14   error  'buffer.Buffer()' was deprecated since v6.0.0. Use 'buffer.Buffer.alloc()' or 'buffer.Buffer.from()' instead      n/no-deprecated-api
+  18230:14   error  'buffer.SlowBuffer' was deprecated since v6.0.0. Use 'buffer.Buffer.allocUnsafeSlow()' instead                    n/no-deprecated-api
+  18236:7    error  Identifier 'require_content_disposition' is not in camel case                                                     camelcase
+  18243:41   error  Unexpected control character(s) in regular expression: \x00                                                       no-control-regex
+  18247:25   error  Unexpected control character(s) in regular expression: \x00                                                       no-control-regex
+  18249:26   error  Unexpected control character(s) in regular expression: \x09, \x09, \x09, \x09                                     no-control-regex
+  18253:37   error  Unexpected control character(s) in regular expression: \x09                                                       no-control-regex
+  18261:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18268:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18346:14   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  18399:7    error  Identifier 'require_encodeurl2' is not in camel case                                                              camelcase
+  18413:7    error  Identifier 'require_etag' is not in camel case                                                                    camelcase
+  18455:7    error  Identifier 'require_fresh' is not in camel case                                                                   camelcase
+  18528:7    error  Identifier 'require_types' is not in camel case                                                                   camelcase
+  18535:7    error  Identifier 'require_mime' is not in camel case                                                                    camelcase
+  18537:11   error  'path' is assigned a value but never used                                                                         no-unused-vars
+  18568:38   error  Unnecessary escape character: \.                                                                                  no-useless-escape
+  18568:40   error  Unnecessary escape character: \/                                                                                  no-useless-escape
+  18589:7    error  Identifier 'require_ms2' is not in camel case                                                                     camelcase
+  18662:18   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18705:7    error  Identifier 'require_range_parser' is not in camel case                                                            camelcase
+  18748:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  18786:7    error  Identifier 'require_send' is not in camel case                                                                    camelcase
+  18825:50   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18826:50   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18827:34   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18828:42   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18833:27   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18836:29   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18837:26   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18839:46   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18840:44   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18841:36   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18842:50   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18859:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  18918:23   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  18918:40   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  18951:32   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  18951:52   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  19038:24   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  19087:27   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  19235:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  19331:7    error  Identifier 'require_forwarded' is not in camel case                                                               camelcase
+  19378:7    error  Identifier 'require_ipaddr' is not in camel case                                                                  camelcase
+  19382:7    error  'ipaddr' is never reassigned. Use 'const' instead                                                                 prefer-const
+  19383:7    error  'root' is never reassigned. Use 'const' instead                                                                   prefer-const
+  19389:7    error  'matchCIDR' is never reassigned. Use 'const' instead                                                              prefer-const
+  19457:29   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  19458:13   error  Expected an assignment or function call and instead saw an expression                                             no-unused-expressions
+  19458:24   error  Unexpected use of comma operator                                                                                  no-sequences
+  19483:11   error  'zerotable' is never reassigned. Use 'const' instead                                                              prefer-const
+  19515:7    error  'ipv4Part' is never reassigned. Use 'const' instead                                                               prefer-const
+  19516:7    error  'ipv4Regexes' is never reassigned. Use 'const' instead                                                            prefer-const
+  19522:9    error  'parseIntAuto' is never reassigned. Use 'const' instead                                                           prefer-const
+  19529:13   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  19532:13   error  'ref' is never reassigned. Use 'const' instead                                                                    prefer-const
+  19533:13   error  'results' is never reassigned. Use 'const' instead                                                                prefer-const
+  19540:20   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  19547:13   error  'results' is never reassigned. Use 'const' instead                                                                prefer-const
+  19570:11   error  'ref' is never reassigned. Use 'const' instead                                                                    prefer-const
+  19589:11   error  'regex' is never reassigned. Use 'const' instead                                                                  prefer-const
+  19590:11   error  'string' is never reassigned. Use 'const' instead                                                                 prefer-const
+  19593:18   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  19606:11   error  'bytes' is never reassigned. Use 'const' instead                                                                  prefer-const
+  19607:11   error  'ref' is never reassigned. Use 'const' instead                                                                    prefer-const
+  19617:11   error  'addr' is never reassigned. Use 'const' instead                                                                   prefer-const
+  19619:13   error  'ref' is never reassigned. Use 'const' instead                                                                    prefer-const
+  19620:13   error  'results' is never reassigned. Use 'const' instead                                                                prefer-const
+  19635:11   error  'addr' is never reassigned. Use 'const' instead                                                                   prefer-const
+  19637:13   error  'ref' is never reassigned. Use 'const' instead                                                                    prefer-const
+  19638:13   error  'results' is never reassigned. Use 'const' instead                                                                prefer-const
+  19653:29   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  19654:13   error  Expected an assignment or function call and instead saw an expression                                             no-unused-expressions
+  19654:24   error  Unexpected use of comma operator                                                                                  no-sequences
+  19685:11   error  Expected an assignment or function call and instead saw an expression                                             no-unused-expressions
+  19685:37   error  Unexpected use of comma operator                                                                                  no-sequences
+  19690:11   error  'zerotable' is never reassigned. Use 'const' instead                                                              prefer-const
+  19730:7    error  'ipv6Part' is never reassigned. Use 'const' instead                                                               prefer-const
+  19731:7    error  'zoneIndex' is never reassigned. Use 'const' instead                                                              prefer-const
+  19732:7    error  'ipv6Regexes' is never reassigned. Use 'const' instead                                                            prefer-const
+  19737:7    error  'expandIPv6' is never reassigned. Use 'const' instead                                                             prefer-const
+  19775:11   error  'ref' is never reassigned. Use 'const' instead                                                                    prefer-const
+  19776:11   error  'results' is never reassigned. Use 'const' instead                                                                prefer-const
+  19792:20   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  19819:11   error  Do not use 'new' for side effects                                                                                 no-new
+  19822:11   error  'e' is assigned a value but never used                                                                            no-unused-vars
+  19840:11   error  Do not use 'new' for side effects                                                                                 no-new
+  19843:11   error  'e' is assigned a value but never used                                                                            no-unused-vars
+  19849:9    error  'parts' is never reassigned. Use 'const' instead                                                                  prefer-const
+  19857:9    error  'addr' is never reassigned. Use 'const' instead                                                                   prefer-const
+  19865:13   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  19885:9    error  'octets' is never reassigned. Use 'const' instead                                                                 prefer-const
+  19887:9    error  'filledOctetCount' is never reassigned. Use 'const' instead                                                       prefer-const
+  19911:11   error  'error' is assigned a value but never used                                                                        no-unused-vars
+  19929:11   error  'error' is assigned a value but never used                                                                        no-unused-vars
+  19935:13   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  19970:13   error  'e' is assigned a value but never used                                                                            no-unused-vars
+  19977:9    error  'length' is never reassigned. Use 'const' instead                                                                 prefer-const
+  19988:9    error  'addr' is never reassigned. Use 'const' instead                                                                   prefer-const
+  20000:7    error  Identifier 'require_proxy_addr' is not in camel case                                                              camelcase
+  20159:7    error  Identifier 'require_utils2' is not in camel case                                                                  camelcase
+  20296:7    error  Identifier 'require_application' is not in camel case                                                             camelcase
+  20412:35   error  Identifier 'mounted_app' is not in camel case                                                                     camelcase
+  20456:16   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  20572:7    error  Identifier 'require_charset' is not in camel case                                                                 camelcase
+  20580:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  20635:53   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  20659:7    error  Identifier 'require_encoding' is not in camel case                                                                camelcase
+  20669:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  20757:7    error  Identifier 'require_language' is not in camel case                                                                camelcase
+  20765:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  20828:54   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  20852:7    error  Identifier 'require_mediaType' is not in camel case                                                               camelcase
+  20857:45   error  Unnecessary escape character: \/                                                                                  no-useless-escape
+  20860:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  20914:35   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+  20916:28   error  Expected '!==' and instead saw '!='                                                                               eqeqeq
+  20919:38   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+  20921:31   error  Expected '!==' and instead saw '!='                                                                               eqeqeq
+  20927:33   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+  20927:80   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+  20942:46   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  20985:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  20986:40   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+  20997:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  20998:43   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+  21005:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  21005:16   error  'i' is already defined                                                                                            no-redeclare
+  21014:7    error  Identifier 'require_negotiator' is not in camel case                                                              camelcase
+  21069:7    error  Identifier 'require_accepts' is not in camel case                                                                 camelcase
+  21150:7    error  Identifier 'require_request' is not in camel case                                                                 camelcase
+  21219:42   error  Do not access Object.prototype method 'hasOwnProperty' from target object                                         no-prototype-builtins
+  21288:25   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  21288:41   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  21314:7    error  Identifier 'require_cookie_signature' is not in camel case                                                        camelcase
+  21320:100  error  Unnecessary escape character: \=                                                                                  no-useless-escape
+  21326:24   error  Expected '===' and instead saw '=='                                                                               eqeqeq
+  21335:7    error  Identifier 'require_cookie' is not in camel case                                                                  camelcase
+  21352:23   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  21352:37   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  21369:18   error  Do not access Object.prototype method 'hasOwnProperty' from target object                                         no-prototype-builtins
+  21398:23   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  21398:37   error  Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  21500:7    error  Identifier 'require_vary' is not in camel case                                                                    camelcase
+  21565:11   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  21573:7    error  Identifier 'require_response' is not in camel case                                                                camelcase
+  21670:21   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  21677:22   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  21683:35   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  21684:13   error  Expected a conditional expression and instead saw an assignment                                                   no-cond-assign
+  21757:40   error  Unnecessary escape character: \[                                                                                  no-useless-escape
+  21758:22   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  21837:89   error  Expected 'undefined' and instead saw 'void'                                                                       no-void
+  22003:18   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  22003:42   error  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations                      no-mixed-operators
+  22115:7    error  Identifier 'require_serve_static' is not in camel case                                                            camelcase
+  22181:12   error  Unexpected var, use let or const instead                                                                          no-var) (warning
+  22220:7    error  Identifier 'require_express' is not in camel case                                                                 camelcase
+  22289:7    error  Identifier 'require_express2' is not in camel case                                                                camelcase
+  22297:7    error  Identifier 'import_express' is not in camel case                                                                  camelcase
+  22298:17   error  Identifier 'import_express' is not in camel case                                                                  camelcase
+
+/Users/home-macbook/Documents/WEB-ENTW/web-entw-hausarbeit/frontend/main.mjs
+   2:13  error  'L' is not defined                              no-undef
+   3:15  error  'L' is not defined                              no-undef
+   5:1   error  'L' is not defined                              no-undef
+  27:11  error  Identifier 'new_location' is not in camel case  camelcase
+  33:20  error  'L' is not defined                              no-undef
+  44:5   error  'alert' is not defined                          no-undef
+  76:7   error  'alert' is not defined                          no-undef
+  78:7   error  'alert' is not defined                          no-undef
+
+✖ 620 problems

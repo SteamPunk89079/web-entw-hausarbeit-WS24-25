@@ -1,0 +1,39 @@
+{
+  "name": "web-entw-hausarbeit",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Hausarbeit Claudiu Gheorghita",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm install less --save-dev",
+    "build:start": "mkdir frontend/dist",
+    "start": "node backend/server.mjs",
+    "build:css": "lessc --clean-css ./frontend/index.less ./frontend/dist/index.css",
+    "build:backend": "esbuild ./backend/server.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/server.bundle.js",
+    "build:frontend": "esbuild ./frontend/main.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/main.bundle.js && esbuild ./index.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/index.bundle.js",
+    "build": "npm install && npm run build:start && npm run build:backend && npm run build:frontend && npm run build:css && npm run lint && echo '...Build finished'",
+    "rebuild": "npm run clean && npm run build",
+    "lint": "semistandard --fix | snazzy  > frontend/dist/semistandard.txt",
+    "clean": "rm -rf frontend/dist && rm -rf node_modules",
+    "debug": "semistandard --fix | snazzy  > frontend/dist/semistandard.txt"
+  },
+  "author": "Claudiu Gheorghita",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.21.2",
+    "leaflet": "^1.9.4",
+    "nodemon": "^3.1.9",
+    "rimraf": "^6.0.1",
+    "semistandard": "^17.0.0",
+    "web-entw-hausarbeit": "file:"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "esbuild": "^0.24.2",
+    "less": "^4.2.1",
+    "less-plugin-clean-css": "^1.6.0",
+    "shx": "^0.3.4"
+  }
+}
