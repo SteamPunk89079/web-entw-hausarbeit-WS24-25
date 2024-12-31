@@ -14,7 +14,7 @@ if (isNaN(port) || port <= 0 || port > 65535) {
 }
 
 app.get('/', (request, resolve) => {
-  resolve.send('Hello');
+  resolve.send('<h1>Hello from the server side</h1>');
 });
 
 app.listen(port, () => {
