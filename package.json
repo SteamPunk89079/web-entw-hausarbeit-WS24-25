@@ -20,7 +20,7 @@
     "start:test": "http-server dist"
   },
   "author": "Claudiu Gheorghita",
-  "license": "ISC",
+  "license": "Hochschule Trier WS24/25",
   "dependencies": {
     "babel": "^6.23.0",
     "express": "^4.21.2",
