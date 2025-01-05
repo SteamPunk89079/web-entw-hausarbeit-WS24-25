@@ -20,7 +20,7 @@
     "start:test": "http-server dist",
     "copy-html": "mkdirp frontend/dist && node -e \"require('fs').copyFileSync('frontend/index.html', 'frontend/dist/index.html')\""
   },
-  "author": "Claudiu Gheorghita",
+  "author": "Claudiu Gheorghita Test",
   "license": "Hochschule Trier WS24/25",
   "dependencies": {
     "babel": "^6.23.0",
