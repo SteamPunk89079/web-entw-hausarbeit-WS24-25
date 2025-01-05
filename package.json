@@ -11,13 +11,14 @@
     "build:css": "lessc --clean-css ./frontend/index.less ./frontend/dist/index.css",
     "build:backend": "esbuild ./backend/server.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/server.bundle.js",
     "build:frontend": "esbuild ./frontend/main.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/main.bundle.js && esbuild ./index.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/index.bundle.js",
-    "build": "npm install && npm run build:start && npm run build:backend && npm run build:frontend && npm run build:css && echo Build Complete",
+    "build": "npm install && npm run build:start && npm run build:backend && npm run build:frontend && npm run build:css && npm run copy-html && echo Build Complete",
     "rebuild": "npm run clean && npm run build",
     "lint": "semistandard --fix | tee lint-results.txt",
     "clean": "rimraf frontend/dist node_modules && echo Clean Complete",
     "debug": "npm run prebuild && npm run build",
     "close:ports": "cross-env-shell \"node scripts/close_ports.js\"",
-    "start:test": "http-server dist"
+    "start:test": "http-server dist",
+    "copy-html": "mkdirp frontend/dist && node -e \"require('fs').copyFileSync('frontend/index.html', 'frontend/dist/index.html')\""
   },
   "author": "Claudiu Gheorghita",
   "license": "Hochschule Trier WS24/25",
