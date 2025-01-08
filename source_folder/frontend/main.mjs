@@ -102,9 +102,7 @@ function onMapClick (e) {
         `)
     .openOn(map);
 
-  // Add event listener to the Save button
   document.getElementById('save_location_button').addEventListener('click', () => saveLocation(e));
 }
 
-// Add the click event listener to the map
 map.on('click', onMapClick);

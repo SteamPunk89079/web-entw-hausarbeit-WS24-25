@@ -5,20 +5,19 @@
   "description": "Hausarbeit Claudiu Gheorghita",
   "main": "index.js",
   "scripts": {
+    "bundle": "esbuild ./source_folder/frontend/main.mjs --bundle --outfile=./build_folder/main.js",
+    "minify": "terser ./source_folder/frontend/main.mjs --compress --mangle --output ./build_folder/main.js",
+    "build:frontend": "npm run build:start && npm run bundle && npm run minify",
     "prebuild": "npm install less --save-dev && npm install esbuild --save-dev",
-    "build:start": "npx mkdirp frontend/dist",
-    "start": "node backend/server.mjs",
-    "build:css": "lessc --clean-css ./frontend/index.less ./frontend/dist/index.css",
-    "build:backend": "esbuild ./backend/server.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/server.bundle.js",
-    "build:frontend": "esbuild ./frontend/main.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/main.bundle.js && esbuild ./index.mjs --platform=node --log-level=warning --bundle --outfile=./frontend/dist/index.bundle.js",
-    "build": "npm install && npm run build:start && npm run build:backend && npm run build:frontend && npm run build:css && npm run copy-html && echo Build Complete",
+    "build:start": "mkdir -p build_folder",
+    "start": "node source_folder/backend/server.mjs",
+    "build:css": "lessc --clean-css ./source_folder/frontend/index.less ./build_folder/index.css",
+    "build": "npm install && npm run build:start && npm run build:frontend && npm run build:css && npm run copy-html && echo Build Complete",
     "rebuild": "npm run clean && npm run build",
-    "lint": "semistandard --fix | tee lint-results.txt",
-    "clean": "rimraf frontend/dist node_modules && echo Clean Complete",
+    "lint": "semistandard --fix --ignore build_folder",
+    "clean": "rimraf ./build_folder ./node_modules && echo Clean Complete",
     "debug": "npm run prebuild && npm run build",
-    "close:ports": "cross-env-shell \"node scripts/close_ports.js\"",
-    "start:test": "http-server dist",
-    "copy-html": "mkdirp frontend/dist && node -e \"require('fs').copyFileSync('frontend/index.html', 'frontend/dist/index.html')\""
+    "copy-html": "cp -r ./source_folder/frontend/index.html ./build_folder/index.html"
   },
   "author": "Claudiu Gheorghita Test",
   "license": "Hochschule Trier WS24/25",
@@ -26,18 +25,22 @@
     "babel": "^6.23.0",
     "express": "^4.21.2",
     "leaflet": "^1.9.4",
+    "lessc": "^1.0.2",
     "mkdirp": "^3.0.1",
     "nodemon": "^3.1.9",
     "rimraf": "^6.0.1",
-    "semistandard": "^17.0.0",
     "web-entw-hausarbeit": "file:"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "esbuild": "^0.24.2",
+    "eslint": "^8.57.1",
+    "globals": "^15.14.0",
     "less": "^4.2.1",
     "less-plugin-clean-css": "^1.6.0",
-    "shx": "^0.3.4"
+    "semistandard": "^17.0.0",
+    "shx": "^0.3.4",
+    "terser": "^5.37.0"
   }
 }
