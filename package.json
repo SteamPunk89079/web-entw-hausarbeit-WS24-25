@@ -19,7 +19,7 @@
     "debug": "npm run prebuild && npm run build",
     "copy-html": "cp -r ./source_folder/frontend/index.html ./build_folder/index.html"
   },
-  "author": "Claudiu Gheorghita Test",
+  "author": "Claudiu Gheorghita",
   "license": "Hochschule Trier WS24/25",
   "dependencies": {
     "babel": "^6.23.0",
